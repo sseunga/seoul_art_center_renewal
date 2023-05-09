@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>예술의 전당 로그인</title>
+    <link rel="stylesheet" href="css/login_style.css">
+    <script
+  src="https://code.jquery.com/jquery-2.2.4.min.js"
+  integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
+  crossorigin="anonymous"></script>
+    <script src="script/script.js"></script>
+</head>
+<body>
+     <!--headerStart-->
+     <header>
+        <h1>
+            <a href="index.html">
+                <img src="images/logo.png" alt="로고이미지">
+            </a>
+        </h1>
+        <nav>
+            <ul id="mNavi">
+                <li>
+                    <a href="#">공연·전시</a>
+                    <ul class="subNavi">
+                        <li><a href="#">전체일정</a></li>
+                        <li><a href="#">오늘의 공연·전시</a></li>
+                        <li><a href="#">진행/예정 프로그램</a></li>
+                        <li><a href="#">SAC 기획 프로그램</a></li>
+                        <li><a href="#">패키지</a></li>
+                        <li><a href="#">티켓오픈</a></li>
+                        <li><a href="#">싹(SAC)딜</a></li>
+                        <li><a href="#">당일할인</a></li>
+                        <li><a href="#">예매·취소안내</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#">공연·대관</a>
+                    <ul class="subNavi">
+                        <li>
+                            <a href="#">공간소개</a>
+                            <ul class="s_subNavi">
+                                <li><a href="#">공간안내</a></li>
+                                <li><a href="#">공연장</a></li>
+                                <li><a href="#">전시장</a></li>
+                                <li><a href="#">공연영상스튜디오-실감</a></li>
+                                <li><a href="#">야외공간</a></li>
+                                <li><a href="#">홍보공간(@700)</a></li>
+                                <li><a href="#">사이버투어</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#">공간별 대관안내</a>
+                            <ul class="s_subNavi">
+                                <li><a href="#">오페라하우스</a></li>
+                                <li><a href="#">음악당</a></li>
+                                <li><a href="#">미술관·박물관</a></li>
+                                <li><a href="#">공연영상스튜디오-실감</a></li>
+                                <li><a href="#">기타 행사공간 및 촬영장소</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#">입장권 운영안내</a>
+                            <ul class="s_subNavi">
+                                <li><a href="#">입장권 운영안내</a></li>
+                                <li><a href="#">특이사항 및 좌석안내</a></li>
+                                <li><a href="#">공연·전시 홍보 서비스안내</a></li>
+                                <li><a href="#">공연영상스튜디오-실감</a></li>
+                                <li><a href="#">홈페이지 배너 신청</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#">아카데미</a>
+                    <ul class="subNavi">
+                        <li>
+                            <a href="#">아카데미 안내</a>
+                            <ul class="s_subNavi">
+                                <li><a href="#">아카데미 메인</a></li>
+                                <li><a href="#">인문·감상</a></li>
+                                <li><a href="#">미술실기</a></li>
+                                <li><a href="#">서화</a></li>
+                                <li><a href="#">어린이</a></li>
+                                <li><a href="#">음악영재</a></li>
+                                <li><a href="#">소소살롱</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">수강신청</a></li>
+                        <li><a href="#">아카데미 공지사항</a></li>
+                        <li><a href="#">아카데미 FAQ</a></li>
+                        <li><a href="#">오디션신청</a></li>
+                        <li><a href="#">나의강좌</a></li>
+                        <li><a href="#">온라인 사군자</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#">공간·이용·참여</a>
+                    <ul class="subNavi">
+                        <li>
+                            <a href="#">전당소식</a>
+                            <ul class="s_subNavi">
+                                <li><a href="#">공지사항</a></li>
+                                <li><a href="#">보도자료</a></li>
+                                <li><a href="#">언론보도</a></li>
+                                <li><a href="#">채용공고</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">오시는길·주차</a></li>
+                        <li>
+                            <a href="#">편의서비스</a>
+                            <ul class="s_subNavi">
+                                <li><a href="#">공연장 편의서비스</a></li>
+                                <li><a href="#">전시장 편의서비스</a></li>
+                                <li><a href="#">장애인 국가유공자 이용안내</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#">입점매장</a>
+                            <ul class="s_subNavi">
+                                <li><a href="#">음식점</a></li>
+                                <li><a href="#">쇼핑</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#">고객센터</a>
+                            <ul class="s_subNavi">
+                                <li><a href="#">서비스플라자</a></li>
+                                <li><a href="#">유실물센터</a></li>
+                                <li><a href="#">FAQ</a></li>
+                                <li><a href="#">1:1 문의하기</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">이벤트</a></li>
+                        <li><a href="#">세계음악분수</a></li>
+                        <li><a href="#">포스트/웹진/매거진</a></li>
+                        <li>
+                            <a href="#">관람평</a>
+                            <ul class="s_subNavi">
+                                <li><a href="#">최대 별점 공연/전시</a></li>
+                                <li><a href="#">최신순</a></li>
+                                <li><a href="#">평점 높은순</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">관람예절</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#">기관소개</a>
+                    <ul class="subNavi">
+                        <li><a href="#">기관소개 메인</a></li>
+                        <li>
+                            <a href="#">예술의전당 소개</a>
+                            <ul class="s_subNavi">
+                                <li><a href="#">인사말</a></li>
+                                <li><a href="#">역사</a></li>
+                                <li><a href="#">운영이념</a></li>
+                                <li><a href="#">조직</a></li>
+                                <li><a href="#">CI소개</a></li>
+                                <li><a href="#">협력기관</a></li>
+                                <li><a href="#">후원회</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#">특별사업</a>
+                            <ul class="s_subNavi">
+                                <li><a href="#">SAC on SCREEN</a></li>
+                                <li><a href="#">객석기부</a></li>
+                                <li><a href="#">문화햇살사업</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#">정보공개</a>
+                            <ul class="s_subNavi">
+                                <li><a href="#">정보공개안내</a></li>
+                                <li><a href="#">사전정보공표</a></li>
+                                <li><a href="#">비공개 대상정보</a></li>
+                                <li><a href="#">공공데이터 개방</a></li>
+                                <li><a href="#">경영공시</a></li>
+                                <li><a href="#">사업실명제</a></li>
+                                <li><a href="#">운영보고서</a></li>
+                            </ul>
+                        </li>                      
+                        <li><a href="#">후원하기</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+        <ul class="log">
+            <li><a href="login.html"><img src="images/log.png" alt="마이페이지아이콘"></a></li>
+            <li><a href="#"><img src="images/search.png" alt="돋보기아이콘"></a></li>
+            <li><a href="#">English</a></li>
+        </ul>
+    </header>
+    <!--headerEnd-->
+    <!--sectionStart-->
+    <section>
+        <div id="loginW">
+            <h2>예술의 전당 로그인</h2>
+            <p>예술의 전당에 오신것을 환영합니다!</p>
+            <form id="idForm" action="login.php" metod="post">
+                <input type="text" id="id" placeholder="   아이디" required>
+                <input type="password" id="pw" placeholder="   비밀번호">
+                <div id="search">
+                    <input type="checkbox" id="check">
+                    <label for="check">아이디저장</label>
+                    <ul>
+                        <li><a href="#">아이디찾기</a></li>
+                        <li><a href="#">비밀번호찾기</a></li>
+                    </ul>
+                </div>
+                <input type="submit" value="로그인" id="log_btn">
+                <button>회원가입</button>
+            </form>
+            <hr/>
+            <div id="login_sns">
+                <h3>소셜 계정으로 로그인</h3>
+                <ul>
+                    <li>
+                        <a href="#">
+                            <img src="images/login_n.jpg" alt="네이버로그인">
+                            <p>네이버<br>로그인</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="images/login_k.jpg" alt="카카오로그인">
+                            <p>카카오<br>로그인</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="images/login_f.jpg" alt="페이스북로그인">
+                            <p>페이스북<br>로그인</p>
+                        </a>
+                    </li>
+                </ul>
+            </div>    
+        </div>
+    </section>
+    <!--sectionEnd-->
+    <!--footerStart-->
+    <footer>
+        <div class="link"><!--회색배경-->
+            <div class="linkW">
+                <ul class="click">
+                    <li><a href="#none">사이트맵</a></li>
+                    <li><a href="#none">오시는길</a></li>
+                    <li><a href="#none">정보공개</a></li>
+                    <li><a href="#none">이용약관·정책</a></li>
+                    <li><a href="#none">개인정보처리방침</a></li>
+                    <li><a href="https://www.mcst.go.kr/kor/main.jsp" target="_blank"><img src="images/culture_logo.png" alt="문화체육관광부이미지"></a></li>
+                </ul>
+                <ul class="sns">
+                    <li>
+                        <a href="https://www.facebook.com/SeoulArtsCenter.Korea" target="_blank">
+                            <img src="images/sns1.png" alt="페이스북아이콘">
+                            <img src="images/sns1-1.png" alt="페이스북아이콘_1">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://twitter.com/I_Love_SAC" target="_blank">
+                            <img src="images/sns2.png" alt="트위터아이콘">
+                            <img src="images/sns2-1.png" alt="트위터아이콘_1">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.instagram.com/seoul_arts_center/" target="_blank">
+                            <img src="images/sns3.png" alt="인스타그램아이콘">
+                            <img src="images/sns3-1.png" alt="인스타그램아이콘_1">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://blog.naver.com/i_love_sac" target="_blank">
+                            <img src="images/sns4.png" alt="블로그아이콘">
+                            <img src="images/sns4-1.png" alt="블로그아이콘_1">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://m.post.naver.com/i_love_sac?memberNo=33166497" target="_blank">
+                            <img src="images/sns5.png" alt="포스트아이콘">
+                            <img src="images/sns5-1.png" alt="포스트아이콘_1">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://tv.naver.com/seoulartscenter" target="_blank">
+                            <img src="images/sns6.png" alt="네이버tv">
+                            <img src="images/sns6-1.png" alt="네이버tv_1">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.youtube.com/channel/UCUn8h6aG6rCM1zvXKIuNpVQ" target="_blank">
+                            <img src="images/sns7.png" alt="유튜브아이콘">
+                            <img src="images/sns7-1.png" alt="유튜브아이콘_1">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.podbbang.com/channels/5932" target="_blank">
+                            <img src="images/sns8.png" alt="팟빵아이콘">
+                            <img src="images/sns8-1.png" alt="팟빵아이콘_1">
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="footW">
+            <div class="footc1">
+                <h3>02-580-130 (09:00-20:00,연중무휴)</h3>
+                <p>
+                (우) 06757 서울시 서초구 남부순환로 2406 예술의전당 <br>
+                copyrightⓒ2020 Seoul Arts Center. All rights Reserved.
+                </p>
+            </div>
+            <div class="footc2">
+                <span>대  표  자</span> 장형준<br>
+                <span>사업자등록번호</span> 214-82-00264<br>
+                <span>통신판매업신고</span> 서초 제 0706호<br>
+            </div>
+        </div>
+    </footer>
+    <!--footerEnd-->     
+</body>
+</html>
